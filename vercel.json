@@ -3,7 +3,7 @@
     { "source": "/static/:path*", "destination": "/api/static" }
   ],
   "functions": {
-    "_render": {
+    "api/*": {
       "runtime": "nodejs20.x"
     }
   }
